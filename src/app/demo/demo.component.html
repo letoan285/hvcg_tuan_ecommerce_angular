@@ -1,0 +1,11 @@
+<!-- <h2 class="{{myClass.text}}" [id]="myClass.name" class="class-3">Hello {{component.name}}</h2>
+<h2 [ngClass]="[myClass.text]" class="class-1">Hello {{component.name}}</h2>
+<h2 [ngStyle]="{color: 'red'}">Hello {{component.name}}</h2>
+<input type="text" disabled="true" /> -->
+<!-- directive  -->
+<div>
+    <h3 *ngIf="role >= 2">Admin</h3>
+    <h3 *ngIf="role >= 3">Super Admin</h3>
+    <h3 *ngIf="role >= 1">User</h3>
+    <!-- <h3 *ngElse>User Noraml</h3> -->
+</div>

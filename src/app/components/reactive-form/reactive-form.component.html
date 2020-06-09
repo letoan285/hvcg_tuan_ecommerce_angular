@@ -1,0 +1,25 @@
+<form  [formGroup]="productForm"  (ngSubmit)="handleSubmit()">
+    <div class="form-group">
+        <label for="">Product Name</label>
+        <input type="text" class="form-control" formControlName="name" >
+    </div>
+    <div class="form-group">
+        <label for="">Description</label>
+        <input type="text" class="form-control" formControlName="description" >
+    </div>
+    <div class="form-group">
+        <label for="">Image</label>
+        <input type="text" class="form-control" formControlName="image" >
+    </div>
+    <div class="form-group">
+        <label for="">Price</label>
+        <input type="text" class="form-control" formControlName="price" >
+    </div>
+    <div class="form-group">
+        <label for="">Category ID</label>
+        <input type="text" class="form-control" formControlName="category_id" >
+    </div>
+    <div class="form-group">
+        <button class="btn btn-success" type="submit">Submit</button>
+    </div>
+</form>
